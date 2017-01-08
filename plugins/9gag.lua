@@ -30,8 +30,8 @@ end
 
 return {
   description = "9GAG for Telegram",
-  usage = "!9gag: Send random image from 9gag",
-  patterns = {"^!9gag$"},
+  usage = "[!/#](9gag): Send random image from 9gag",
+  patterns = {"^[!/#](9gag)$"},
   run = run
 }
 
